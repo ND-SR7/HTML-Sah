@@ -6,9 +6,25 @@ body{
   display: flex;
   flex-direction: column;
   margin: 0 auto;
+  margin-left: inherit;
 }
 .row{
   display: flex;
+}
+#rowguide{
+  display: flex;
+  flex-direction: row;
+}
+#rowguide p{
+  padding-left: 35px;
+  padding-right: 30px;
+}
+#columnguide{
+  margin: 0 10px auto auto;
+}
+#columnguide p{
+  padding-top: 10px;
+  padding-bottom: 35px;
 }
 .black{
   background: #000000;
