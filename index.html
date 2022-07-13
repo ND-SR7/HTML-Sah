@@ -6,88 +6,216 @@
 </head>
   <body>
     <div id="columnguide">
-      <p>1</p><p>2</p><p>3</p><p>4</p><p>5</p><p>6</p><p>7</p><p>8</p>
+      <p>8</p><p>7</p><p>6</p><p>5</p><p>4</p><p>3</p><p>2</p><p>1</p>
     </div>
     <div class="board">
       <div id="row8" class="row">
-        <div id="a8" class="white"></div>
-        <div id="b8" class="black"></div>
-        <div id="c8" class="white"></div>
-        <div id="d8" class="black"></div>
-        <div id="e8" class="white"></div>
-        <div id="f8" class="black"></div>
-        <div id="g8" class="white"></div>
-        <div id="h8" class="black"></div>
+        <div id="a8" class="white">
+          <div class="piece">
+            <img id="brA" src="img/br.png" onclick="showMoves(this.id, 'r')">
+          </div>
+        </div>
+        <div id="b8" class="blue">
+          <div class="piece">
+            <img id="bnB" src="img/bn.png" onclick="showMoves(this.id, 'n')">
+          </div>
+        </div>
+        <div id="c8" class="white">
+          <div class="piece">
+            <img id="bbC" src="img/bb.png" onclick="showMoves(this.id, 'b')">
+          </div>
+        </div>
+        <div id="d8" class="blue">
+          <div class="piece">
+            <img id="bq" src="img/bq.png" onclick="showMoves(this.id, 'q')">
+          </div>
+        </div>
+        <div id="e8" class="white">
+          <div class="piece">
+            <img id="bk" src="img/bk.png" onclick="showMoves(this.id, 'k')">
+          </div>
+        </div>
+        <div id="f8" class="blue">
+          <div class="piece">
+            <img id="bbF" src="img/bb.png" onclick="showMoves(this.id, 'b')">
+          </div>
+        </div>
+        <div id="g8" class="white">
+          <div class="piece">
+            <img id="bnG" src="img/bn.png" onclick="showMoves(this.id, 'n')">
+          </div>
+        </div>
+        <div id="h8" class="blue">
+          <div class="piece">
+            <img id="brH" src="img/br.png" onclick="showMoves(this.id, 'r')">
+          </div>
+        </div>
       </div>
       <div id="row7" class="row">
-        <div id="a7" class="black"></div>
-        <div id="b7" class="white"></div>
-        <div id="c7" class="black"></div>
-        <div id="d7" class="white"></div>
-        <div id="e7" class="black"></div>
-        <div id="f7" class="white"></div>
-        <div id="g7" class="black"></div>
-        <div id="h7" class="white"></div>
+        <div id="a7" class="blue">
+          <div class="piece">
+            <img id="bpA" src="img/bp.png" onclick="showMoves(this.id, 'p')">
+          </div>
+        </div>
+        <div id="b7" class="white">
+          <div class="piece">
+            <img id="bpB" src="img/bp.png" onclick="showMoves(this.id, 'p')">
+          </div>
+        </div>
+        <div id="c7" class="blue">
+          <div class="piece">
+            <img id="bpC" src="img/bp.png" onclick="showMoves(this.id, 'p')">
+          </div>
+        </div>
+        <div id="d7" class="white">
+          <div class="piece">
+            <img id="bpD" src="img/bp.png" onclick="showMoves(this.id, 'p')">
+          </div>
+        </div>
+        <div id="e7" class="blue">
+          <div class="piece">
+            <img id="bpE" src="img/bp.png" onclick="showMoves(this.id, 'p')">
+          </div>
+        </div>
+        <div id="f7" class="white">
+          <div class="piece">
+            <img id="bpF" src="img/bp.png" onclick="showMoves(this.id, 'p')">
+          </div>
+        </div>
+        <div id="g7" class="blue">
+          <div class="piece">
+            <img id="bpG" src="img/bp.png" onclick="showMoves(this.id, 'p')">
+          </div>
+        </div>
+        <div id="h7" class="white">
+          <div class="piece">
+            <img id="bpH" src="img/bp.png" onclick="showMoves(this.id, 'p')">
+          </div>
+        </div>
       </div>
       <div id="row6" class="row">
         <div id="a6" class="white"></div>
-        <div id="b6" class="black"></div>
+        <div id="b6" class="blue"></div>
         <div id="c6" class="white"></div>
-        <div id="d6" class="black"></div>
+        <div id="d6" class="blue"></div>
         <div id="e6" class="white"></div>
-        <div id="f6" class="black"></div>
+        <div id="f6" class="blue"></div>
         <div id="g6" class="white"></div>
-        <div id="h6" class="black"></div>
+        <div id="h6" class="blue"></div>
       </div>
       <div id="row5" class="row">
-        <div id="a5" class="black"></div>
+        <div id="a5" class="blue"></div>
         <div id="b5" class="white"></div>
-        <div id="c5" class="black"></div>
+        <div id="c5" class="blue"></div>
         <div id="d5" class="white"></div>
-        <div id="e5" class="black"></div>
+        <div id="e5" class="blue"></div>
         <div id="f5" class="white"></div>
-        <div id="g5" class="black"></div>
+        <div id="g5" class="blue"></div>
         <div id="h5" class="white"></div>
       </div>
       <div id="row4" class="row">
         <div id="a4" class="white"></div>
-        <div id="b4" class="black"></div>
+        <div id="b4" class="blue"></div>
         <div id="c4" class="white"></div>
-        <div id="d4" class="black"></div>
+        <div id="d4" class="blue"></div>
         <div id="e4" class="white"></div>
-        <div id="f4" class="black"></div>
+        <div id="f4" class="blue"></div>
         <div id="g4" class="white"></div>
-        <div id="h4" class="black"></div>
+        <div id="h4" class="blue"></div>
       </div>
       <div id="row3" class="row">
-        <div id="a3" class="black"></div>
+        <div id="a3" class="blue"></div>
         <div id="b3" class="white"></div>
-        <div id="c3" class="black"></div>
+        <div id="c3" class="blue"></div>
         <div id="d3" class="white"></div>
-        <div id="e3" class="black"></div>
+        <div id="e3" class="blue"></div>
         <div id="f3" class="white"></div>
-        <div id="g3" class="black"></div>
+        <div id="g3" class="blue"></div>
         <div id="h3" class="white"></div>
       </div>
       <div id="row2" class="row">
-        <div id="a2" class="white"></div>
-        <div id="b2" class="black"></div>
-        <div id="c2" class="white"></div>
-        <div id="d2" class="black"></div>
-        <div id="e2" class="white"></div>
-        <div id="f2" class="black"></div>
-        <div id="g2" class="white"></div>
-        <div id="h2" class="black"></div>
+        <div id="a2" class="white">
+          <div class="piece">
+            <img id="wpA" src="img/wp.png" onclick="showMoves(this.id, 'p')">
+          </div>
+        </div>
+        <div id="b2" class="blue">
+          <div class="piece">
+            <img id="wpB" src="img/wp.png" onclick="showMoves(this.id, 'p')">
+          </div>
+        </div>
+        <div id="c2" class="white">
+          <div class="piece">
+            <img id="wpC" src="img/wp.png" onclick="showMoves(this.id, 'p')">
+          </div>
+        </div>
+        <div id="d2" class="blue">
+          <div class="piece">
+            <img id="wpD" src="img/wp.png" onclick="showMoves(this.id, 'p')">
+          </div>
+        </div>
+        <div id="e2" class="white">
+          <div class="piece">
+            <img id="wpE" src="img/wp.png" onclick="showMoves(this.id, 'p')">
+          </div>
+        </div>
+        <div id="f2" class="blue">
+          <div class="piece">
+            <img id="wpF" src="img/wp.png" onclick="showMoves(this.id, 'p')">
+          </div>
+        </div>
+        <div id="g2" class="white">
+          <div class="piece">
+            <img id="wpG" src="img/wp.png" onclick="showMoves(this.id, 'p')">
+          </div>
+        </div>
+        <div id="h2" class="blue">
+          <div class="piece">
+            <img id="wpH" src="img/wp.png" onclick="showMoves(this.id, 'p')">
+          </div>
+        </div>
       </div>
       <div id="row1" class="row">
-        <div id="a1" class="black"></div>
-        <div id="b1" class="white"></div>
-        <div id="c1" class="black"></div>
-        <div id="d1" class="white"></div>
-        <div id="e1" class="black"></div>
-        <div id="f1" class="white"></div>
-        <div id="g1" class="black"></div>
-        <div id="h1" class="white"></div>
+        <div id="a1" class="blue">
+          <div class="piece">
+            <img id="wrA" src="img/wr.png" onclick="showMoves(this.id, 'r')">
+          </div>
+        </div>
+        <div id="b1" class="white">
+          <div class="piece">
+            <img id="wnB" src="img/wn.png" onclick="showMoves(this.id, 'n')">
+          </div>
+        </div>
+        <div id="c1" class="blue">
+          <div class="piece">
+            <img id="wbC" src="img/wb.png" onclick="showMoves(this.id, 'b')">
+          </div>
+        </div>
+        <div id="d1" class="white">
+          <div class="piece">
+            <img id="wq" src="img/wq.png" onclick="showMoves(this.id, 'q')">
+          </div>
+        </div>
+        <div id="e1" class="blue">
+          <div class="piece">
+            <img id="wK" src="img/wk.png" onclick="showMoves(this.id, 'k')">
+          </div>
+        </div>
+        <div id="f1" class="white">
+          <div class="piece">
+            <img id="wbF" src="img/wb.png" onclick="showMoves(this.id, 'b')">
+          </div>
+        </div>
+        <div id="g1" class="blue">
+          <div class="piece">
+            <img id="wnG" src="img/wn.png" onclick="showMoves(this.id, 'n')">
+          </div>
+        </div>
+        <div id="h1" class="white">
+          <div class="piece">
+            <img id="wrH" src="img/wr.png" onclick="showMoves(this.id, 'r')">
+          </div>
+        </div>
       </div>
       <div id="rowguide" class="row">
         <p>A</p><p>B</p><p>C</p><p>D</p><p>E</p><p>F</p><p>G</p><p>H</p>
