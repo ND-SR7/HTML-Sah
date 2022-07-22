@@ -14,11 +14,13 @@ for (let i = 0; i < allFields.length; i++) {
 
 function getField(field) {
     if (!pieceSelected) { //no piece is selected
-        pieceSelected = true;
+        if (field.innerHTML != ""){
+            pieceSelected = true;
+        }
         selectedPiece = field.innerHTML;
         selectedField = field;
     } else { //moving the piece
-        if(field.innerHTML != ""){
+        if (field.innerHTML != ""){
             field.innerHTML = "";
         }
         field.innerHTML = selectedPiece;
